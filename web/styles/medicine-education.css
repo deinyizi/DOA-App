@@ -1,0 +1,190 @@
+/* GUIDE-STYLING */
+h1{
+    color: blue;
+}
+h3{
+    color: gray;
+    font-size: 30px;
+}
+#appointment{
+    font-size: 30px;
+    padding: 10px;
+    color: blue;
+}
+h2{
+    color: gray;
+}
+p{
+    font-size: 20px;
+}
+#resize{
+    width: 75%;
+    margin: auto;
+}
+#guide{
+    display:inline-flex;
+    padding:10px;
+}
+
+#guide div{
+    width:85%;
+    padding:10px; 
+}
+
+#guide div i#appointment{
+    text-align:center; 
+}
+/* GUIDE MEDIA QUERY */
+@media screen and (max-width: 800px){
+    #guide{
+        display: block;
+    }
+}
+#links {
+    background-color: #272625;
+    display: flex;
+    padding-bottom: 50px;
+    padding-top: 50px;
+    width: 100%;
+    flex-wrap: wrap;
+}
+.link1{
+    padding-left: 50px;
+    margin: 5px;
+}
+.link2{
+    padding-left: 180px;
+    margin: 5px;
+}
+#link3{
+    padding-left: 200px;
+    margin: 5px;
+}
+section#links h2{
+    color: white;
+    font-size: 18px
+}
+section#links a{
+    color: gray;
+    font-size: 15px;
+    padding: 10px;
+}
+section#links p{
+    color: gray;
+    font-size: 15px;
+    padding: 10px;
+}
+
+.socialIcon{
+    margin-left: 15px;
+    margin-right: 0px;
+    color: white;
+    display: inline;
+}
+#link3 div:first-of-type{
+    padding-top: 8px;
+}
+footer section:last-of-type{
+    margin-left: 100px;
+}
+.socialIcon i{
+    font-size: 20px;
+    margin-right: 10px;
+    margin-top: 20px;
+}
+.follow{
+    font-size: 18px;
+    color: white;
+    margin-top: 15px;
+}		
+.socialLink{
+    text-decoration: none;
+    color: white;
+}
+a{
+    text-decoration: none;
+}
+/* MEDIA QUERY FOR LINKS */
+@media screen and (max-width: 800px){
+    section#links div{
+        flex: 100%;
+        padding: 10px;
+        width: 100%;
+    }
+    section#links h2{
+        flex: 100%;
+        padding: 8px;
+        font-size: 15px;
+
+    }
+    section#links a{
+        font-size: 13px;
+    }
+    section#links b{
+        font-size: 15px;
+    }
+    section#links .socialIcon i{
+        font-size: 15px;
+        display: inline;
+    }
+}
+@media screen and (min-width:  768px){
+    section#links div{
+        flex: 40%;
+        padding: 10px;
+        width: 100%;
+    }
+    section#links h2{
+        flex: 40%;
+        padding: 8px;
+        font-size: 15px;
+    }
+    section#links a{
+        font-size: 13px;
+    }
+    section#links b{
+        font-size: 15px;
+    }
+    section#links .socialIcon i{
+        font-size: 15px;
+        display: inline;
+    }
+}
+
+@media screen and (min-width: 1024px){
+    section#links div{
+        flex: 20%;
+        padding: 10px;
+        width: 100%;
+    }
+    section#links h2{
+        flex: 100%;
+        padding: 8px;
+        font-size: 15px;
+    }
+    section#links a{
+        font-size: 13px;
+    }
+    section#links b{
+        font-size: 15px;
+    }
+    section#links .socialIcon i{
+        font-size: 15px;
+        display: inline;
+    }
+}
+/* FOOTER */
+#end a{
+    color: gray;
+    display: block;
+    padding: 3px;
+}
+footer{
+    height: 5vh;
+    padding: 3px;
+}
+#end{
+    background-color: lightgray;
+    padding-top: 20px;
+    padding-left: 20px;
+}

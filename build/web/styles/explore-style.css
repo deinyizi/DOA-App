@@ -1,0 +1,45 @@
+.header{
+    margin-left:  10%;
+    color: #a2492d;
+}
+#faculty{
+    margin-left: 20%;
+    color: #a2492d;
+    font-size: 20px;
+}
+/* BANNER */
+section#banner{
+    padding: 10px;
+    background-color: #e5e5ec;
+    margin-left: 15%;
+}
+section#banner a{
+    text-decoration: none;
+    color: black;
+    display: block;
+    padding: 10px;
+}
+section#banner a:hover{
+    color: green;
+}
+/* FOOTER */
+#end a{
+    color: gray;
+    display: block;
+    padding: 3px;
+    
+}
+#end {
+     margin-left: 15%;
+}
+footer{
+    height: 5vh;
+    margin-left: 15%;
+    padding: 3px;
+}
+/* MEDIA QUERY FOR FOOTER */
+@media screen and (max-width: 660px){
+    footer{
+        font-size: 11px;
+    }
+} 

@@ -1,0 +1,58 @@
+#drugsandsupp{
+    margin-left:  15%;
+    display: flex;
+   
+}
+.drugheader{
+    color: blue;
+    margin-left: 15%;
+    font-size:  50px;
+}
+.drugheader1{
+    margin-left:  15%;
+    font-size: 20px;
+    padding-top: 10px;
+}
+.bridges
+{
+    width: 70%;
+    margin-left: 15%;
+   border: 1px solid #aeaeae;
+}
+.drugsheader2{
+    margin-left:  15%;
+    color: #787881;
+}
+#supplement a{
+    /*margin-left: auto;*/
+     text-decoration: none;
+    color: blue;
+}
+#supplement1 a{
+   color: blue;
+    text-decoration: none;
+}
+#supplement1{
+     padding-left: 260px;
+}
+.supp{
+    margin-left: 15%;
+    color: #787881;
+}
+.supp1{
+    padding-bottom: 3px;
+    margin-bottom : 30%;
+    color: #787881;
+    
+}
+#drugsandsupp{
+    margin-right: 50%;
+}
+#end{
+    margin-left: 15%;
+}
+.bridges2{
+    width: 70%;
+    margin-left: 15%;
+   border: 1px solid #aeaeae;
+}

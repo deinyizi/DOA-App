@@ -1,0 +1,76 @@
+#login{
+    text-align: center;
+}
+#hospital{
+    font-size: 70px;
+    color: skyblue;
+  
+}
+#logo{
+    margin-right: auto;
+}
+#logo {
+    font-size: 40px;
+    margin-top: 5px;
+    height: 50px;
+    width: auto;
+    color: black;
+    font-family: Clarendon Blk BT;
+    
+}
+#none{
+    text-decoration: none;
+}
+.size{
+    margin-top: 10px;
+    font-size: 40px;
+    color: black;
+    font-family: Informal Roman;
+}
+.logo1{
+    color: #51525a;
+    font-size: 25px;
+    margin-top: 70px;
+}
+.logo2{
+    color: #51525a;
+}
+
+#doctor-email {
+    width: 25%;
+    border-radius: 6px;
+    padding: 10px;
+}
+#doctor-password{
+    width: 25%;
+    border-radius: 6px;
+    padding: 10px;
+}
+#button{
+    background-color: blue;
+    width: 25%;
+    color: white;
+    padding: 5px;
+    margin-top:  20px;
+    font-size: 20px;
+    border-radius: 6px;
+}
+.creating{
+    color: #999a9d;
+    text-decoration: none;
+    margin-top: 100px;
+}
+.border{
+    border-style: groove; 
+    padding: 30px;
+ 
+}
+
+#end{
+    margin-left: 10%;
+}
+.bridges4{
+    width: 93%;
+    margin-left: 2px;
+   border: 1px solid #aeaeae;
+}

@@ -1,0 +1,144 @@
+#international{
+    margin-left: 15%;
+}
+.header1{
+    font-size: 25px;
+    color: blue;
+}
+.header2{
+   font-size: 40px;
+    color: blue;
+}
+.header3{
+    color: #808a88;
+}
+.country1{
+    color: blue;
+}
+
+#numbers{
+    color: blue;
+}
+#country{
+    color: gray;
+}
+.header4{
+    color: #808a88;
+}
+.list li{
+    font-size: 20px;
+}.medical{
+    border: 1px solid gray;
+    color: blue;
+    padding: 30px;
+    margin-left: 15%;
+    margin-right: 15px;
+}
+.headerr{
+    margin-left:  15%;
+}
+#borders{
+    display: flex;
+    font-size: 20px;
+    flex-wrap: wrap;
+}
+.medical:hover{
+    border-color: blue;
+    border-style: dotted;
+}
+.services:hover{
+    border-color: blue;
+    border-style: dotted;
+}
+.services{
+    border: 1px solid gray;
+    color: blue;
+    padding: 30px;
+    margin-right: 15px;
+}
+.bridges2{
+    margin-left: 5px;
+}
+.bridges3{
+    margin-left: 15%;
+}
+p{
+    font-size: 20px;
+}
+
+/* MEDIA QUERY FOR OTHER TOPIC FOR DOA */
+@media screen and (max-width: 660px){
+    #medical{
+        flex: 40%;
+        max-width: 50%;
+    }
+} 
+@media screen and (max-width: 660px){
+    #services{
+        flex: 40%;
+        max-width: 50%;
+        margin-left: 30px;
+        padding-bottom: 20px;
+    }
+} 
+@media screen and (max-width: 660px){
+    #borders{
+        width: 100%;
+        padding: 10px;
+    }
+} 
+@media screen and (max-width: 660px){
+    .medical{
+        width: 70%;
+        margin-left: 50px;
+        margin-bottom: 20px;
+        padding: 20px;
+        <!-- width: 100%; -->
+    }
+} 
+@media screen and (max-width: 660px){
+    .services{
+        width: 80%;
+        margin-left: 50px;
+        margin-bottom: 20px;
+        padding: 20px;
+        <!-- width: 100%; -->
+    }
+} 
+
+/* BANNER */
+section#banner{
+    padding: 10px;
+    background-color: #e5e5ec;
+    margin-left: 15%;
+}
+section#banner a{
+    text-decoration: none;
+    color: black;
+    display: block;
+    padding: 10px;
+}
+section#banner a:hover{
+    color: green;
+}
+/* FOOTER */
+#end a{
+    color: gray;
+    display: block;
+    padding: 3px;
+    
+}
+#end {
+     margin-left: 15%;
+}
+footer{
+    height: 5vh;
+    margin-left: 15%;
+    padding: 3px;
+}
+/* MEDIA QUERY FOR FOOTER */
+@media screen and (max-width: 660px){
+    footer{
+        font-size: 11px;
+    }
+} 

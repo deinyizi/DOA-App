@@ -1,0 +1,61 @@
+.header1{
+    margin-left: 15%;
+    color: blue;
+}
+.header2{
+    
+    color: #2f2f2f;
+    font-size: 20px;
+}
+#alphabets{
+     margin-left: 25%;
+}
+.bridges{
+    width: 40%;
+    margin-left: 2px;
+   border: 0.5px solid #aeaeae;
+}
+#a{
+    color: #1f2245;
+    font-size: 35px;
+}
+.department a{
+    text-decoration: none;
+    color: blue;
+    font-size: 20px;
+}
+.doa1{
+    color: #1f2245;
+    margin-left: 10%;
+}
+.bridges2{
+    width: 20%;
+    margin-left: 10%;
+   border: 4px solid #adb0db;
+}
+.doa{
+     margin-left: 10%;
+}
+.more a{
+    text-decoration: none;
+}
+.more{
+    color: blue;
+     margin-left: 10%;
+}
+.bridges3{
+    width: 83%;
+    margin-left: 10%;
+   border: 0.5px solid #aeaeae;
+}
+
+#end{
+    margin-left: 10%;
+}
+.bridges4{
+    width: 93%;
+    margin-left: 2px;
+   border: 1px solid #aeaeae;
+}
+
+

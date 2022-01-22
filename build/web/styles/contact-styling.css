@@ -1,0 +1,190 @@
+/* CONTACT STYLING */
+.header1{
+    color: blue;
+    margin-left: 15%;
+}
+h2{
+    color: gray;
+    margin-left: 15%;
+}
+h3{
+    color: blue;
+    margin-left: 15%;
+}
+#city{
+    color: blue;
+    font-family:  Helvetica, Arial, sans-serif;
+    font-size:  20px;
+}
+/* TABLE STYLING */
+th{
+    text-align: left;
+    border-bottom: 3px solid gray;
+    color: gray;
+}
+td{
+    padding-top: 10px;
+    padding-right: 15px;
+    border-bottom: 1px solid gray;
+}
+#table{
+    border-collapse: collapse;
+    margin-left: 15%;
+    font-family:  Helvetica, Arial, sans-serif;
+    font-size: 20px;
+}
+td a{
+    text-decoration: none;
+    color: blue;
+}
+.insurance{
+    color: blue;
+}
+.insuphone{
+    color: black;
+    font-size: 15px;
+}
+.insuapp{
+    color: blue;
+}
+.patient{
+    color: blue;
+}
+.record{
+    color: blue;
+}
+p #litta{
+    color: blue;
+    font-size: 15px;
+    margin-right: 20%;
+}
+
+p{
+    margin-left: 15%;
+}
+.staff{
+    color: blue;
+}
+.header{
+    color: blue;
+    font-size: 20px;
+    margin-left: 15%;
+}
+.research{
+    color: blue;
+}
+.contact{
+    color: blue;
+}
+.bridges{
+    border: 4px solid lightblue;
+    margin-left: 15%;
+}
+
+/* OTHER TOPIC STYLING */
+.medical{
+    border: 1px solid gray;
+    color: blue;
+    padding: 30px;
+    margin-left: 15%;
+    margin-right: 15px;
+}
+#borders{
+    display: flex;
+    font-size: 20px;
+    flex-wrap: wrap;
+}
+.medical:hover{
+    border-color: blue;
+    border-style: dotted;
+}
+.services:hover{
+    border-color: blue;
+    border-style: dotted;
+}
+.services{
+    border: 1px solid gray;
+    color: blue;
+    padding: 30px;
+    margin-right: 15px;
+}
+.bridges2{
+    margin-left: 15%;
+}
+
+p{
+    font-size: 20px;
+}
+
+/* MEDIA QUERY FOR OTHER TOPIC FOR DOA */
+@media screen and (max-width: 660px){
+    #medical{
+        flex: 40%;
+        max-width: 50%;
+    }
+} 
+@media screen and (max-width: 660px){
+    #services{
+        flex: 40%;
+        max-width: 50%;
+        margin-left: 30px;
+        padding-bottom: 20px;
+    }
+} 
+@media screen and (max-width: 660px){
+    #borders{
+        width: 100%;
+        padding: 10px;
+    }
+} 
+@media screen and (max-width: 660px){
+    .medical{
+        width: 70%;
+        margin-left: 50px;
+        margin-bottom: 20px;
+        padding: 20px;
+        <!-- width: 100%; -->
+    }
+} 
+@media screen and (max-width: 660px){
+    .services{
+        width: 80%;
+        margin-left: 50px;
+        margin-bottom: 20px;
+        padding: 20px;
+        <!-- width: 100%; -->
+    }
+} 
+
+/* BANNER */
+section#banner{
+    padding: 10px;
+    background-color: #e5e5ec;
+    margin-left: 15%;
+}
+section#banner a{
+    text-decoration: none;
+    color: black;
+    display: block;
+    padding: 10px;
+}
+section#banner a:hover{
+    color: green;
+}
+/* FOOTER */
+#end a{
+    color: gray;
+    display: block;
+    padding: 3px;
+}
+footer{
+    height: 5vh;
+    margin-left: 15%;
+    padding: 3px;
+}
+/* MEDIA QUERY FOR FOOTER */
+@media screen and (max-width: 660px){
+    footer{
+        font-size: 11px;
+    }
+} 

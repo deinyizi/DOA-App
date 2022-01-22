@@ -1,0 +1,72 @@
+/* ABOUT DOA APPOINTMENT FORM */
+#appointment{
+    color: blue;
+    font-family: Clarendon BT;
+}
+h2{
+    color: gray;
+    font-family: Geometr212 BkCn BT;
+}
+h3{
+    color: gray;
+    font-family: Geometr212 BkCn BT;
+}
+#numbers{
+    color: blue;
+}
+#country{
+    color: gray;
+}
+
+/* BUTTON STYLING FOR REQUESTING AN APPOINTMENT */
+button{
+    background-color: blue;
+    color: white;
+    padding: 5px;
+    border: none;
+    height: 50px;
+    padding: 10px;
+    border-radius: 5px;
+}
+button:hover{
+    background-color: green;
+}
+button:visited{
+    color: pink;
+}
+.bridges{
+    border: 4px solid lightblue;
+}
+section#banner{
+    padding: 10px;
+    background-color: #e5e5ec;
+}
+section#banner a{
+    text-decoration: none;
+    color: black;
+    display: block;
+    padding: 10px;
+}
+section#banner a:hover{
+    color: green;
+}
+#end a{
+    color: gray;
+    display: block;
+    padding: 3px;
+}
+
+footer{
+    height: 10vh;
+    padding: 3px;
+}
+
+#end{
+    background-color: lightgray;
+    padding-top: 20px;
+    padding-left: 20px;
+}
+#resize{
+    width: 75%;
+    margin: auto;
+}

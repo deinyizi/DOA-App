@@ -1,0 +1,92 @@
+.detailsname{
+     text-align: center;
+   margin: 50px auto;
+	text-align: center;
+	/*text-shadow: -1px -1px 0px rgba(255,255,255,0.3), 1px 1px 0px rgba(0,0,0,0.8);*/
+	color: #353a81;
+	/*opacity: 0.4;*/
+	font: 700 55px 'Bitter'
+}
+section a{
+    text-decoration: none;
+     padding: 270px;
+     font-size: 20px;
+     color: blue;
+     
+}
+.dates{
+    color: red;
+    margin-left: 50px;
+}
+.logout{
+   font-size: 20px;
+   margin-left: 85%;
+   padding-top: 20px;
+   text-decoration: none;
+   color: #cc3f3f;
+    
+}
+.view {
+   text-align: center;
+   margin: 50px auto;
+	text-align: center;
+	/*text-shadow: -1px -1px 0px rgba(255,255,255,0.3), 1px 1px 0px rgba(0,0,0,0.8);*/
+	color: #2b2d4e;
+	/*opacity: 0.4;*/
+	font: 700 35px 'Bitter'
+}
+.info2{
+    margin-left:20px;
+    font-size: 30px;
+   
+}
+.info1{
+    margin-left: 100px;
+}
+.exist{
+    margin-left: 150px;
+    font-size: 17px;
+}
+#border{
+    border-style: groove;
+    margin: 15px;
+}
+#details{
+    margin-left: 25%;
+}
+
+#table{
+    font-size: 30px;
+    margin: 10px;
+    width: 70%;
+    color: white;
+    background-color: #2f1f49;
+    border-radius: 6px;
+    border-collapse: collapse;
+   
+}
+th, td{
+     border: 1px solid #ddd;
+     text-align: left;
+     padding: 8px;
+}
+.column{
+    padding: 15px;
+    margin-bottom: 10px;
+}
+.list{
+    margin-left: 70px;
+    font-size: 30px;
+}
+
+#end a{
+    color: gray;
+    display: block;
+    padding: 3px;
+}
+footer{
+    height: 5vh;
+    <!-- background-color: lightgray; -->
+    padding: 3px;
+    padding-bottom: 20px;
+}
